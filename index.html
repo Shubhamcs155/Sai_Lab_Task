@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">    
+    <title>Social sites</title>
+    <style>
+        
+
+        @media only screen and (min-width: 600px)  {
+            .fb,.am {
+                float: left;
+            }
+            .gg,.sg {
+                float: right;
+            }
+            .sc {
+                margin-top: 200px;
+                background-color: blue;;
+            }
+            .options {
+                height: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 400px)  {
+            .options {
+                height: 400px;
+            }    
+        }
+        
+
+        button {
+
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            align-items: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: auto;
+            width: 82px;
+            height: 82px;
+            border-radius: 50%;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .fb {
+            background: url(fb80.png);
+            background-repeat: no-repeat;
+        }
+
+        .gg {
+            background: url(gg80.png);
+            background-repeat: no-repeat;
+        }
+        .sg {
+            background: url(sg80.jpg);
+            background-repeat: no-repeat;
+        }
+        .am {
+
+            background: url(am80.png);
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            align-items: center;
+            text-align: center;
+            margin-top: 10%;
+            
+        }
+        .options {
+            align-items: center;
+            text-align: center;
+            background-color: chartreuse;
+            width: 30%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-left: 35%;
+            margin-right: 35%; 
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+        body {
+            background-color: #889985;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+        <div class="options">   
+            <div style="padding: 10px;padding-bottom: 30px;">
+                <div>
+                    <button onclick="window.location.href='https://facebook.com/'"  class="fb" title="Facebook"></button>
+                    <button onclick="window.location.href='https://google.com/'"  class="gg" title="Google"></button>
+                </div>
+
+                <div style="clear: both;" class="sc">
+                    <button onclick="window.location.href='https://amazon.com/'"  class="am" title="Amazon"></button>
+                    <button onclick="window.location.href='https://sggs.ac.in/'"  class="sg" title="SGGS Nanded"></button>
+                </div>
+            </div>
+        </div>    
+</div>
+</body>
+</html>
